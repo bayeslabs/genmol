@@ -1,3 +1,7 @@
 Char-Rnn
 ORGAN
 MOLGAN
+VAE
+AAE
+JTVAE
+Release
