@@ -3,7 +3,7 @@ import numpy as np
 from scipy.spatial.distance import cosine as cos_distance
 from fcd_torch import FCD as FCDMetric
 from fcd_torch import calculate_frechet_distance
-from Reward_Metrics import *
+from RewardMetrics import *
 from rdkit import rdBase
 import random
 
