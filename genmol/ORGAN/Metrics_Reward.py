@@ -1,10 +1,9 @@
 import warnings
 import numpy as np
 from scipy.spatial.distance import cosine as cos_distance
-#from moses.utils import disable_rdkit_log, enable_rdkit_log
 from fcd_torch import FCD as FCDMetric
 from fcd_torch import calculate_frechet_distance
-from RewardMetrics import *
+from Reward_Metrics import *
 from rdkit import rdBase
 import random
 
