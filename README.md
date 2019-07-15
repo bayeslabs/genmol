@@ -10,4 +10,5 @@ We implemented following algorithms using Pytorch for Molecular generations.
 <li><a href="https://blog.bayeslabs.co/2019/06/04/All-you-need-to-know-about-Vae-(Part-1).html">Variational Auto Encoder(VAE)</a></li>
 
 <li><a href="https://blog.bayeslabs.co/2019/06/08/Adversarial-Autoencoder.html">Adversarial Autoencoder(AAE)</a></li>
+<li><a href="https://blog.bayeslabs.co/2019/07/03/Objective-Reinforced-Generative-Adversarial-Network-(Part-I).html">ORGAN</a></li>
 </ul>
