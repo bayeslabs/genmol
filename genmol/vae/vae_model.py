@@ -91,7 +91,7 @@ class VAE(nn.Module):
     y = self.decoder_fullyc(output)
     
     recon_loss = F.cross_entropy(y[:, :-1].contiguous().view(-1, y.size(-1)),x[:, 1:].contiguous().view(-1),ignore_index= c2i['<pad>'])
-
+    return recon_loss
   
     
   def sample_z_prior(self,n_batch):
