@@ -27,7 +27,7 @@ def char2id(char):
 
 def id2char(id):
     if id not in i2c:
-        return i2c[32]
+        return i2c[29]
     else:
         return i2c[id]
 
